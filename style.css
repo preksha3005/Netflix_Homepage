@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fugaz+One&family=Martel+Sans:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fugaz+One&family=Martel+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fugaz+One&family=Martel+Sans:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 2;
+}
+
+.navbar-net {
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    width: 180px;
+    position: relative;
+    left: 80px;
+    top: -20px;
+}
+
+.nav-items {
+    position: relative;
+    left: 70vw;
+    top: -90px;
+}
+
+.lang-dropdown {
+    font-size: 15px;
+    width: 100px;
+    background: transparent;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sign {
+    position: relative;
+    left: 140px;
+    top: -29px;
+}
+
+.sign-in {
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.backdrop {
+    width: 100%;
+    height: 76%;
+    object-fit: contain;
+}
+
+.bg-overlay {
+    position: absolute;
+    width: 100%;
+    height: 113.2%;
+    background: rgba(0, 0, 0, 0.65);
+    inset: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 210px;
+}
+
+.heading-content {
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+}
+
+.head-down {
+    position: relative;
+    left: 10px;
+    font-size: 22px;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.mail {
+    position: relative;
+    left: -18px;
+    width: 25vw;
+    height: 6vh;
+    margin-top: 10px;
+    background: rgb(0, 0, 0, 0.5);
+    border-color: rgb(181, 174, 174);
+    border: 0.5;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+}
+
+.start {
+    position: relative;
+    left: -10px;
+    width: 15vw;
+    height: 8vh;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.startCon {
+    font-size: 20px;
+}
+
+.sepa {
+    background-color: rgb(45, 44, 44);
+    color: rgb(45, 44, 44);
+    margin: 0px;
+    padding: 0;
+    height: 8px;
+}
+
+.header2 {
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+}
+
+.content2 p {
+    font-size: 24px;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.content2 {
+    position: relative;
+    top: 40px;
+    margin: 80px;
+    size: 10px;
+}
+
+.video2 {
+    position: relative;
+    top: -30.1vw;
+    left: 90px;
+    z-index: -10;
+}
+
+.page2 {
+    display: flex;
+    justify-content: center;
+    height: 490px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.header3 {
+    font-size: 46px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 900;
+    margin: 2px;
+}
+
+/* .wrap {
+    background-color: rgb(60, 58, 58);
+    width: 100vw;
+    height: 58vh;
+    padding: 10px;
+    position: relative;
+    top: 15vh;
+    left: -33vw;
+} */
+
+/* .ques,.ans {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 24px;
+}
+.toggle-cond
+{
+    font-size: 20px;
+    position: relative;
+    left: 77.1vw;
+    bottom: 45.7vh;
+    outline: none;
+    background: transparent;
+    color: white;
+    z-index: 1004;
+} */
+/* .header
+{
+    width: 62vw;
+    font-size: 36px;
+    position: relative;
+    left: 16vw;
+} */
+.wrap
+{
+    position: relative;
+    top: 15vh;
+    list-style: none;
+}
+.wrap li
+{
+    padding: 10px;
+}
+.wrap li label
+{
+    cursor: pointer;
+    display: flex;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgb(60, 58, 58);
+    height: 56px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+input[type="checkbox"]
+{
+    position: relative;
+    left: 40vw;
+    display: none;
+}
+.wrap li label::after
+{
+    content: '+';
+    font-weight: 200;
+    position: absolute;
+    left: 87.6vw;
+    font-size: 50px;
+    transition: transform 0.5s;
+}
+.ans
+{
+    max-height: 0;
+    overflow: hidden;
+    font-size: x-large;
+    background-color: rgb(60, 58, 58);
+    transition-property: max-height, padding;
+    transition-duration: 0.5s;
+    padding: 0;
+}
+input[type="checkbox"]:checked +label +.ans
+{
+    /* display: block; */
+    max-height: 100vh;
+    padding: 10px;
+}
+input[type="checkbox"]:checked + label::after{
+    transform:rotate(135deg)
+}
+.page3
+{
+        height: 1460px;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+}
+.page3 h2
+{
+    font-size: 70px;
+    text-align: center;
+}
+.pagecontent
+{
+    z-index: 1000;
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+.down p
+{
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+}
+.mailid
+{
+    width: 25vw;
+    height: 6vh;
+    margin-top: 10px;
+    background: rgb(0, 0, 0, 0.5);
+    border-color: rgb(181, 174, 174);
+    border: 0.5;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+}
+.starts
+{
+    width: 14vw;
+    height: 8.4vh;
+    border: 0;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    margin: 6px;
+    position: relative;
+    top: 4px;
+}
+.getst
+{
+    font-size: x-large;
+}
+.footer
+{
+    position: absolute;
+    left: 180px;
+}
+.footer-ques
+{
+    opacity: 0.5;
+}
+.footer-ques p
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+}
+a
+{
+    color: white;
+}
+
+.links .row li
+{
+    list-style: none;
+}
+.links
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 160px;
+    opacity: 0.5;
+}
+
