@@ -370,3 +370,22 @@ a
     opacity: 0.5;
 }
 
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .nav-items {
+        margin-top: 10px;
+    }
+
+    .sign-in {
+        margin-top: 10px;
+    }
+
+    /* Other elements */
+    /* Add styles to make other elements responsive */
+}
