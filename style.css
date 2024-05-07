@@ -370,7 +370,7 @@ a
     opacity: 0.5;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     /* Navbar */
     .navbar {
         flex-direction: column;
@@ -389,3 +389,4 @@ a
     /* Other elements */
     /* Add styles to make other elements responsive */
 }
+ */
