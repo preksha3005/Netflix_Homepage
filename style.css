@@ -370,14 +370,17 @@ a
     opacity: 0.5;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     /* Navbar */
     .navbar {
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
     }
-
+    .bg-overlay
+    {
+        width: 200%;
+    }
     .nav-items {
         margin-top: 10px;
     }
@@ -389,4 +392,4 @@ a
     /* Other elements */
     /* Add styles to make other elements responsive */
 }
- */
+
